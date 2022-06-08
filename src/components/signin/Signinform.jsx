@@ -31,7 +31,7 @@ const Signinform = () => {
             </div>
             <div className="reg"><Link to="/">Forgot Password?</Link>
             </div>
-        </div >
+        </div>
     )
 };
 
