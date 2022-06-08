@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Logo from '../../assets/logo-white.png'
 import "./signinform.css"
 
 const Signinform = () => {
     return (
         <div className="signinform">
-            <h1 className="logo">piggyvest</h1>
+            <Link className="brand" to="/">
+                <img src={Logo} alt="" />
+            </Link>
             <div className="signinform-container">
                 <form action="/" method="get" className="logform">
                     <h2 className="intro">Login to your account</h2>
@@ -23,9 +27,9 @@ const Signinform = () => {
                     </div>
                 </form>
             </div>
-            <div className="reg">Don't have an account? <a href="/">Register</a>
+            <div className="reg">Don't have an account? <Link to="/register">Register</Link>
             </div>
-            <div className="reg"><a href="/">Forgot Password?</a>
+            <div className="reg"><Link to="/">Forgot Password?</Link>
             </div>
         </div >
     )
