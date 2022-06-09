@@ -1,15 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Piggy from "../../assets/piggy.jpeg";
-// import Navbar from "../navbar/Navbar";
-// import Footer from "../footer/Footer";
+
 
 import "./landing.css";
 
 const Landing = () => {
   return (
     <div className="landingpage">
-      {/* <Navbar /> */}
       <section className="landing01">
         <h1 className="landing-topic">The Better Way to Save & Invest.</h1>
         <p className="landing-doings">
@@ -71,7 +68,7 @@ const Landing = () => {
             />
           </svg>
           <svg
-            class="cross undefined headerIcon"
+            className="cross undefined headerIcon"
             width="75"
             height="75"
             viewBox="0 0 80 80"
@@ -99,7 +96,7 @@ const Landing = () => {
             </g>
           </svg>
           <svg
-            class="dot undefined headerIcon"
+            className="dot undefined headerIcon"
             width="33"
             height="108"
             viewBox="0 0 35 110"
@@ -112,74 +109,74 @@ const Landing = () => {
               cy="5"
               r="5"
               fill="#2295F2"
-              fill-opacity="0.28"
+              fillOpacity={0.28}
             ></circle>
             <circle
               cx="5"
               cy="30"
               r="5"
               fill="#2295F2"
-              fill-opacity="0.28"
+              fillOpacity={0.28}
             ></circle>
             <circle
               cx="5"
               cy="55"
               r="5"
               fill="#2295F2"
-              fill-opacity="0.28"
+              fillOpacity={0.28}
             ></circle>
             <circle
               cx="5"
               cy="80"
               r="5"
               fill="#2295F2"
-              fill-opacity="0.28"
+              fillOpacity={0.28}
             ></circle>
             <circle
               cx="5"
               cy="105"
               r="5"
               fill="#2295F2"
-              fill-opacity="0.28"
+              fillOpacity={0.28}
             ></circle>
             <circle
               cx="30"
               cy="5"
               r="5"
               fill="#2295F2"
-              fill-opacity="0.28"
+              fillOpacity={0.28}
             ></circle>
             <circle
               cx="30"
               cy="30"
               r="5"
               fill="#2295F2"
-              fill-opacity="0.28"
+              fillOpacity={0.28}
             ></circle>
             <circle
               cx="30"
               cy="55"
               r="5"
               fill="#2295F2"
-              fill-opacity="0.28"
+              fillOpacity={0.28}
             ></circle>
             <circle
               cx="30"
               cy="80"
               r="5"
               fill="#2295F2"
-              fill-opacity="0.28"
+              fillOpacity={0.28}
             ></circle>
             <circle
               cx="30"
               cy="105"
               r="5"
               fill="#2295F2"
-              fill-opacity="0.28"
+              fillOpacity={0.28}
             ></circle>
           </svg>
           <svg
-            class="circle undefined headerIcon"
+            className="circle undefined headerIcon"
             width="41"
             height="41"
             viewBox="0 0 46 46"
@@ -192,8 +189,8 @@ const Landing = () => {
               cy="23"
               r="15.5"
               stroke="#E7439C"
-              stroke-opacity="0.15"
-              stroke-width="15"
+              strokeOpacity={0.15}
+              strokeWidth="15"
             ></circle>
           </svg>
           <svg
@@ -239,12 +236,9 @@ const Landing = () => {
           </a>
         </div>
 
-        <div className="landing01-img">
-          <img src={<Piggy />} alt="" />
-        </div>
       </section>
+
       <section className="landing02"></section>
-      {/* <Footer /> */}
     </div>
   );
 };
