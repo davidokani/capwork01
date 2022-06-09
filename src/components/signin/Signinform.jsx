@@ -10,7 +10,7 @@ const Signinform = () => {
                 <img src={Logo} alt="" />
             </Link>
             <div className="signinform-container">
-                <form action="/" method="get" className="logform">
+                <form action="/" method="post" className="logform">
                     <h2 className="intro">Login to your account</h2>
                     <i>Securely login to your Piggyvest</i>
 
