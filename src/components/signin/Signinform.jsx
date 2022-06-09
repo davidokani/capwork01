@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from '../../assets/logo-white.png'
+import Logo from "../../assets/logo-white.png";
 import "./signinform.css"
 
 const Signinform = () => {
@@ -27,12 +27,14 @@ const Signinform = () => {
                     </div>
                 </form>
             </div>
-            <div className="reg">Don't have an account? <Link to="/register">Register</Link>
+            <div className="reg"><Link to="/register">Don't have an account? Register</Link>
             </div>
-            <div className="reg"><Link to="/">Forgot Password?</Link>
+            <div className="reg"><Link to="/recover">Forgot Password?</Link>
             </div>
         </div>
     )
 };
 
 export default Signinform;
+
+/* fevil was here  */ 

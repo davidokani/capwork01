@@ -19,8 +19,8 @@ const Regform = () => {
                         <input type="text" name="fullname" id="fullname" required placeholder="Full Name" />
                     </div>
                     <div className="logform-option">
-                        <label id="logform-option" htmlFor="email">Email Adress</label>
-                        <input type="text" name="email" id="email" required placeholder="Email Adress" />
+                        <label id="logform-option" htmlFor="email">Email Address</label>
+                        <input type="text" name="email" id="email" required placeholder="Email Address" />
                     </div>
                     <div className="logform-option">
                         <label id="logform-option" htmlFor="phone">Phone Number</label>
@@ -52,10 +52,12 @@ const Regform = () => {
                     </div>
                 </form>
             </div>
-            <div className="reg">Already have an account? <Link to="/signin">Log In</Link>
+            <div className="reg"><Link to="/signin">Already have an account? Log In</Link>
             </div>
         </div>
     )
 };
 
 export default Regform;
+
+/* fevil was here  */
