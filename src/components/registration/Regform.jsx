@@ -11,8 +11,8 @@ const Regform = () => {
             </Link>
             <div className="signinform-container">
                 <form action="/" method="POST" className="regform">
-                    <h2 className="intro">Login to your account</h2>
-                    <i>Securely login to your Piggyvest</i>
+                    <h2 className="intro">Create a Secure Account</h2>
+                    <i>Welcome to the future of Savings and Investments</i>
 
                     <div className="logform-option">
                         <label id="logform-option" htmlFor="fullname">Full Name</label>
