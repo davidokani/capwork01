@@ -130,7 +130,7 @@
 .circleIcon {
     display: inline-flex;
     position: absolute;
-    bottom: 37pc;
+    bottom: 38pc;
     margin-left: -242px;
 }
 
@@ -182,4 +182,165 @@ a.morelink-for02 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     text-decoration: none;
+}
+
+/* RESPONSIVES MEDIA QUERY FOR TABLETS AND MINI LAPTOP SCREEN BELOW */
+@media (min-width: 1370px) and (max-width: 1419px) {
+    .landingpage {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container01-left {
+        padding: 105px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .landing-topic {
+        font-size: 58px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .landing-doings {
+        font-size: 19px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .landing01-image img.shepoint {
+        display: inline-flex;
+        position: relative;
+        width: 400px;
+        padding: 170px;
+        margin-right: 50px;
+        bottom: 65px;
+    }
+
+    .landing01-image img.myrent {
+        height: 120px;
+        width: 250px;
+        display: inline-flex;
+        position: absolute;
+        bottom: 35pc;
+        margin-left: -750px;
+        z-index: 1;
+
+    }
+
+    .landing01-image img.investify {
+        height: 120px;
+        width: 250px;
+        display: inline-flex;
+        position: absolute;
+        bottom: 15pc;
+        margin-left: -350px;
+    }
+
+    .crossIcon {
+        display: inline-flex;
+        position: absolute;
+        bottom: 52pc;
+        margin-left: -655px;
+    }
+
+    .circleIcon {
+        display: inline-flex;
+        position: absolute;
+        bottom: 44pc;
+        margin-left: -242px;
+    }
+
+    .dotIcon {
+        display: inline-flex;
+        position: absolute;
+        bottom: 27pc;
+        margin-left: -635px;
+    }
+}
+
+/* RESPONSIVES MEDIA QUERY FOR TABLET MINI SCREEN BELOW */
+@media (min-width: 521px) and (max-width: 1369px) {
+    .landingpage {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .container01-left {
+        padding: 105px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .landing-topic {
+        font-size: 58px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .landing-doings {
+        font-size: 19px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .landing01-image img.shepoint {
+        display: inline-flex;
+        position: relative;
+        width: 400px;
+        padding: 170px;
+        margin-right: 50px;
+        bottom: 65px;
+    }
+
+    .landing01-image img.myrent {
+        height: 120px;
+        width: 250px;
+        display: inline-flex;
+        position: absolute;
+        bottom: 35pc;
+        margin-left: -750px;
+        z-index: 1;
+
+    }
+
+    .landing01-image img.investify {
+        height: 120px;
+        width: 250px;
+        display: inline-flex;
+        position: absolute;
+        bottom: 15pc;
+        margin-left: -350px;
+    }
+
+    .crossIcon {
+        display: inline-flex;
+        position: absolute;
+        bottom: 52pc;
+        margin-left: -655px;
+    }
+
+    .circleIcon {
+        display: inline-flex;
+        position: absolute;
+        bottom: 44pc;
+        margin-left: -242px;
+    }
+
+    .dotIcon {
+        display: inline-flex;
+        position: absolute;
+        bottom: 27pc;
+        margin-left: -635px;
+    }
+}
+
+/* RESPONSIVE MEDIA QUERY FOR MOBILE SCREENS BELOW */
+@media (max-width: 520px) {
+    .landing01 {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

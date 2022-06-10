@@ -14,6 +14,9 @@ const Landing = () => {
   return (
     <div className="landingpage">
       <Navbar />
+      {/* 7 SECTIONS IN TOTAL TO MAKE UP PIGGYVEST LANDINGPADE */}
+
+      {/* SECTION ONE BEGIN */}
       <section className="landing01">
         <div className="container01-left">
           <div className="animation-swipeup">
@@ -188,7 +191,9 @@ const Landing = () => {
           </svg>
         </div>
       </section>
+      {/* SECTION ONE ENDING */}
 
+      {/* SECTION TWO BEGIN */}
       <section className="landing02">
         <img className="shieldicon" src={Shield} alt="" />
         <div className="scurity">
@@ -204,6 +209,14 @@ const Landing = () => {
 
         </div>
       </section>
+      {/* SECTION TWO ENDING */}
+
+      {/* SECTION THREE BEGIN */}
+      <section className="landing03">
+
+      </section>
+      {/* SECTION THREE ENDING */}
+
       <Footer />
     </div>
   );
