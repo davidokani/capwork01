@@ -1,9 +1,9 @@
 import React from "react";
 import "./footer.css";
 import Logo from '../../assets/logo.svg';
-import {FaFacebookSquare} from "react-icons/fa";
-import {FaTwitterSquare} from "react-icons/fa";
-import {FaInstagramSquare} from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -13,7 +13,7 @@ const Footer = () => {
                     <a href="/"><img src={Logo} alt="piggy-vest" /></a>
                 </div>
 
-               
+
                 <div className="procomp">
                     <div className="prod">
                         <h4>Product</h4>
@@ -34,9 +34,9 @@ const Footer = () => {
                             <li><a href="/">Blog</a></li>
                         </ul>
                     </div>
-                
+
                 </div>
-                
+
                 <div className="legal">
                     <h4>Legal</h4>
                     <ul>
@@ -47,22 +47,22 @@ const Footer = () => {
                 </div>
 
                 <div className="socials">
-                    
+
                     <div className="icon-div">
-                        <FaFacebookSquare size="25px"/>
-                        <FaTwitterSquare size="25px"/>
-                        <FaInstagramSquare size="25px"/>
+                        <FaFacebookSquare size="25px" />
+                        <FaTwitterSquare size="25px" />
+                        <FaInstagramSquare size="25px" />
                     </div>
-                   
+
                     <ul>
-                        <li><a href="">Tesmot house, Abdulrahman Okene <br /> close, Victoria Island, Lagos, Nigeria.</a></li>
+                        <li><a href="/">Tesmot house, Abdulrahman Okene <br /> close, Victoria Island, Lagos, Nigeria.</a></li>
                         <li><a href="/">contact@piggyvest.com</a></li>
                         <li><a href="/">+234 700 933 933</a></li>
                     </ul>
                 </div>
 
             </div>
-           
+
             <div className="footer2">
                 <p>
                     piggyvest (formerly piggybank.ng) is the leading online savings & investing platform in Nigeria.
@@ -73,7 +73,7 @@ const Footer = () => {
                     2016 - 2022 piggyTech Global limited - RC 1405222
                 </p>
             </div>
-           
+
         </div>
     );
 };
