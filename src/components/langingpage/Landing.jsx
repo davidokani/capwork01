@@ -11,6 +11,11 @@ import Phone from "../../assets/piggy-phone.png";
 import Macaroni from "../../assets/macaroni2.PNG";
 import {IoIosArrowForward} from 'react-icons/io'
 import {BsArrowRightCircleFill} from 'react-icons/bs'
+import shieldSave from "../../assets/shieldsave.png"
+import target from "../../assets/target.png"
+import flex from "../../assets/flex.png"
+import safeLock from "../../assets/safelock.png"
+import newsvg from "../../assets/newsvg.svg"
 
 
 
@@ -218,7 +223,38 @@ const Landing = () => {
 
       {/* SECTION THREE BEGIN */}
       <section className="landing03">
-
+        <div className="landing03-container">
+          <div className="spansection">
+            <h1>4 ways to build your savings</h1>
+            <p>Earn 5%-15% when you save with any of these PiggyVest plans.</p>
+            <button>Start Saving</button>
+          </div>
+          <div className="gridsection">
+            <img className="bullet" alt='shield' src={shieldSave} />
+            <h1>Automated Savings</h1>
+            <p>Build a dedicated savings faster based on your terms automaticlly or manually</p>
+            <p> <img classname="right-arrow" src={newsvg} alt='right arrow'/> Piggybank </p>
+          </div>
+          <div className="gridsection">
+            <img className="bullet" alt='shield' src={safeLock} />
+            <h1>Fixed Savings</h1>
+            <p>Lock money away for a fixed duration with no access to it until maturity. 
+              It’s like having a custom fixed deposit.</p>
+            <p> <img classname="right-arrow" src={newsvg} alt='right arrow'/> Safelock</p>
+          </div>
+          <div className="gridsection">
+            <img className="bullet" alt='shield' src={target} />
+            <h1>Goal-oriented Savings</h1>
+            <p>Reach all your savings goals faster. Save towards multiple goals on your own or with a group.</p>
+            <p> <img classname="right-arrow" src={newsvg} alt='right arrow'/> Target Savings </p>
+          </div>
+          <div className="gridsection">
+            <img className="bullet" alt='shield' src={flex} />
+            <h1>Flexible Savings</h1>
+            <p>Save, transfer, withdraw, manage and organise your money for free at any time.</p>
+            <p> <img classname="right-arrow" src={newsvg} alt='right arrow'/> Flex Naira </p>
+          </div>
+        </div>
       </section>
       {/* SECTION THREE ENDING */}
       
