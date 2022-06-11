@@ -2,6 +2,7 @@
     font-family: DM Sans;
     src: url(/src/assets/DM_Sans/DMSans-Regular.ttf);
 }
+
 @font-face {
     font-family: DM SansBold;
     src: url(/src/assets/DM_Sans/DMSans-Bold.ttf);
@@ -431,16 +432,19 @@ a.morelink-for02 {
 
 
 
-/* ========== SECTION FOUR STYLINGS STARTS ============ */
+/* ========== SECTION THREE STYLINGS STARTS ============ */
 .landing03 {
-    font-family: DM Sans,sans-serif;
+    font-family: DM Sans, sans-serif;
     margin: 50px;
 }
+
 .landing03-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    width: inherit;
 }
+
 .gridsection {
     display: flex;
     cursor: pointer;
@@ -453,11 +457,11 @@ a.morelink-for02 {
     padding: 30px;
 }
 
-.gridsection > h1 {
+.gridsection>h1 {
     font-family: DM SansBold, sans-serif;
 }
 
-.gridsection > p + p {
+.gridsection>p+p {
     margin-top: auto;
     font-weight: bold;
     display: flex;
@@ -478,28 +482,28 @@ a.morelink-for02 {
     grid-row: span 2;
 }
 
-.spansection > h1 {
-    margin:0;
-    margin-top:50px;
-    padding:0;
+.spansection>h1 {
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
     font-family: DM SansBold, sans-serif;
     font-size: 40px;
     font-weight: bold;
 }
 
-.spansection > p {
+.spansection>p {
     width: 280px;
 }
 
-.spansection > button {
+.spansection>button {
     outline: none;
-    border:none;
+    border: none;
     height: 55px;
     width: 140px;
     border-radius: 12px;
     margin-top: 25px;
     font-weight: bold;
-    background-color:rgb(0, 1, 34);
+    background-color: rgb(0, 1, 34);
     cursor: pointer;
     color: white;
     -moz-transition: background-color 0.75s;
@@ -507,34 +511,71 @@ a.morelink-for02 {
     -o-transition: background-color 0.75s;
     transition: 0.75s;
 }
-.spansection > button:hover{
+
+.spansection>button:hover {
     background-color: rgb(0, 8, 253)
 }
-/* ========== SECTION FOUR STYLINGS STARTS ============ */
+
+
+@media (max-width: 1150px) {
+    .landing03 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing03-container {
+        display: inline-block;
+    }
+
+    .spansection h1 {
+        font-size: 25px;
+        padding: 0px;
+    }
+
+    .gridsection {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 160px;
+        padding: 60px;
+        margin-top: 90px;
+        /* margin-right: -100px; */
+        bottom: 65px;
+    }
+}
+
+/* ========== SECTION THREE STYLINGS ENDS ============ */
 
 
 
 /* ========== SECTION FOUR STYLINGS STARTS ============ */
-.landing04{
+.landing04 {
     margin: 100px;
 }
-.landing04 .wrapper{
+
+.landing04 .wrapper {
     display: flex;
     justify-content: center;
     margin: 0 100px;
 }
-.landing04 .wrapper .img-div{
+
+.landing04 .wrapper .img-div {
     width: 500px;
     margin-right: 80px;
 }
-.landing04 .wrapper .img-div img{
+
+.landing04 .wrapper .img-div img {
     width: 100%;
 }
-.landing04 .wrapper .writeUp-div{
+
+.landing04 .wrapper .writeUp-div {
     text-align: left;
     margin-top: 50px;
 }
-.landing04 .wrapper .writeUp-div .bonus{
+
+.landing04 .wrapper .writeUp-div .bonus {
     background-color: #F7F0FF;
     color: #7913E5;
     font-weight: bold;
@@ -542,54 +583,63 @@ a.morelink-for02 {
     height: 35px;
     border-radius: 30px;
 }
-.landing04 .wrapper .writeUp-div .bonus p{
+
+.landing04 .wrapper .writeUp-div .bonus p {
     padding-top: 8px;
     padding-left: 15px;
 }
-.landing04 .wrapper .writeUp-div h1{
+
+.landing04 .wrapper .writeUp-div h1 {
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.landing04 .wrapper .writeUp-div p:nth-child(3){
+
+.landing04 .wrapper .writeUp-div p:nth-child(3) {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(48, 47, 47);
     margin-bottom: 30px;
 }
-.landing04 .wrapper .writeUp-div a{
+
+.landing04 .wrapper .writeUp-div a {
     text-decoration: none;
     font-size: 20px;
     color: #7913E5;
 }
 
 /* MEDIA QUERY */
-@media screen and (max-width: 1050px){
-    .landing04{
+@media screen and (max-width: 1050px) {
+    .landing04 {
         margin: auto;
     }
-    .landing04 .wrapper{
+
+    .landing04 .wrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: auto;
         width: fit-content;
     }
-    .landing04 .wrapper .img-div{
+
+    .landing04 .wrapper .img-div {
         width: 250px;
         margin: auto;
     }
-    .landing04 .wrapper .writeUp-div{
+
+    .landing04 .wrapper .writeUp-div {
         text-align: center;
         margin: auto;
         margin-top: 50px;
     }
-    .landing04 .wrapper .writeUp-div .bonus{
+
+    .landing04 .wrapper .writeUp-div .bonus {
         margin: auto;
     }
-    .landing04 .wrapper .writeUp-div h1{
+
+    .landing04 .wrapper .writeUp-div h1 {
         font-size: 40px;
     }
-    
+
 }
 
 
@@ -598,7 +648,7 @@ a.morelink-for02 {
 
 
 /* =================== SECTION FIVE STYLINGS STARTS ==============*/
-.landing05 .wrapper{
+.landing05 .wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
     background-color: #0D60D8;
@@ -606,31 +656,37 @@ a.morelink-for02 {
     margin-top: 100px;
 }
 
-.landing05 .wrapper .writeUp-div{
+.landing05 .wrapper .writeUp-div {
     color: #fff;
 }
-.landing05 .wrapper .writeUp-div .writeUp{
+
+.landing05 .wrapper .writeUp-div .writeUp {
     margin: 100px 200px 100px 100px;
-   
+
 }
-.landing05 .wrapper .writeUp-div .writeUp h1{
-    font-size: 60px;   
+
+.landing05 .wrapper .writeUp-div .writeUp h1 {
+    font-size: 60px;
 }
-.landing05 .wrapper .writeUp-div .writeUp p{
-    font-size: larger;  
+
+.landing05 .wrapper .writeUp-div .writeUp p {
+    font-size: larger;
 }
-.landing05 .wrapper .writeUp-div .writeUp a{
+
+.landing05 .wrapper .writeUp-div .writeUp a {
     color: #fff;
-    font-size: larger; 
+    font-size: larger;
     font-weight: bold;
     text-decoration: none;
 }
-.landing05 .wrapper .img-div{
+
+.landing05 .wrapper .img-div {
     width: 140%;
     height: 100%;
     padding-left: 0;
 }
-.landing05 .wrapper .img-div img{
+
+.landing05 .wrapper .img-div img {
     width: 100%;
     height: 100%;
 }
@@ -638,55 +694,60 @@ a.morelink-for02 {
 
 /* MEDIA QUERY */
 
-@media screen and (min-width: 900px) and (max-width: 1320px){
-    .landing05 .wrapper .writeUp-div .writeUp h1{
-        font-size: 42px;      
+@media screen and (min-width: 900px) and (max-width: 1320px) {
+    .landing05 .wrapper .writeUp-div .writeUp h1 {
+        font-size: 42px;
     }
 }
 
 
-@media screen and (max-width: 950px){
-    .landing05 .wrapper{
+@media screen and (max-width: 1200px) {
+    .landing05 .wrapper {
         display: flex;
         flex-direction: column;
         height: fit-content;
         text-align: center;
     }
-    .landing05 .wrapper .img-div{
-        width: 100%;
-        height: 100%;
+
+    .landing05 .wrapper .img-div {
+        width: 102%;
+        height: 102%;
         margin-bottom: 0;
     }
-    .landing05 .wrapper .img-div img{
+
+    .landing05 .wrapper .img-div img {
         width: 100%;
         height: 100%;
     }
-   
-    .landing05 .wrapper .writeUp-div .writeUp{
+
+    .landing05 .wrapper .writeUp-div .writeUp {
         margin: auto;
         margin: 50px;
-       
+
     }
-    .landing05 .wrapper .writeUp-div .writeUp h1{
-        font-size: 45px;      
+
+    .landing05 .wrapper .writeUp-div .writeUp h1 {
+        font-size: 45px;
     }
-    .landing05 .wrapper .writeUp-div .arrow-div{
+
+    .landing05 .wrapper .writeUp-div .arrow-div {
         justify-content: center;
     }
 }
+
 /* ==================== SECTION FIVE STYLINGS ENDS =====================*/
 
-    .landing02 {
-        height: auto;
-        width: 100%;
-        position: relative;
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
+.landing02 {
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 
 
 /* RESPONSIVE MEDIA QUERY FOR MOBILE SCREEN  */

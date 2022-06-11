@@ -9,8 +9,8 @@ import Investify from "../../assets/card2.png";
 import Shield from "../../assets/security.png";
 import Phone from "../../assets/piggy-phone.png";
 import Macaroni from "../../assets/macaroni2.PNG";
-import {IoIosArrowForward} from 'react-icons/io'
-import {BsArrowRightCircleFill} from 'react-icons/bs'
+import { IoIosArrowForward } from 'react-icons/io'
+import { BsArrowRightCircleFill } from 'react-icons/bs'
 import shieldSave from "../../assets/shieldsave.png"
 import target from "../../assets/target.png"
 import flex from "../../assets/flex.png"
@@ -233,80 +233,80 @@ const Landing = () => {
             <img className="bullet" alt='shield' src={shieldSave} />
             <h1>Automated Savings</h1>
             <p>Build a dedicated savings faster based on your terms automaticlly or manually</p>
-            <p> <img classname="right-arrow" src={newsvg} alt='right arrow'/> Piggybank </p>
+            <p> <img className="right-arrow" src={newsvg} alt='right arrow' /> Piggybank </p>
           </div>
           <div className="gridsection">
             <img className="bullet" alt='shield' src={safeLock} />
             <h1>Fixed Savings</h1>
-            <p>Lock money away for a fixed duration with no access to it until maturity. 
+            <p>Lock money away for a fixed duration with no access to it until maturity.
               It’s like having a custom fixed deposit.</p>
-            <p> <img classname="right-arrow" src={newsvg} alt='right arrow'/> Safelock</p>
+            <p> <img className="right-arrow" src={newsvg} alt='right arrow' /> Safelock</p>
           </div>
           <div className="gridsection">
             <img className="bullet" alt='shield' src={target} />
             <h1>Goal-oriented Savings</h1>
             <p>Reach all your savings goals faster. Save towards multiple goals on your own or with a group.</p>
-            <p> <img classname="right-arrow" src={newsvg} alt='right arrow'/> Target Savings </p>
+            <p> <img className="right-arrow" src={newsvg} alt='right arrow' /> Target Savings </p>
           </div>
           <div className="gridsection">
             <img className="bullet" alt='shield' src={flex} />
             <h1>Flexible Savings</h1>
             <p>Save, transfer, withdraw, manage and organise your money for free at any time.</p>
-            <p> <img classname="right-arrow" src={newsvg} alt='right arrow'/> Flex Naira </p>
+            <p> <img className="right-arrow" src={newsvg} alt='right arrow' /> Flex Naira </p>
           </div>
         </div>
       </section>
       {/* SECTION THREE ENDING */}
-      
+
       {/* SECTION FOUR BEGIN */}
       <section className="landing04">
-          <div className="wrapper">
-              <div className="img-div">
-                <img src={Phone} alt="phone" />
-              </div>
-
-              <div className="writeUp-div">
-                  <div className="bonus">
-                    <p>Up To 25% Returns</p>
-                  </div>
-
-                  <h1>Access investment opportunities</h1>
-                  <p >
-                    invest securely and confidently on the go. Grow your money
-                    confidently by investing in pre-vetted investment opportuinities.
-                  </p>
-
-                  <a href="/">Learn more about Investments <IoIosArrowForward  size="15px"/> </a>
-              </div>
+        <div className="wrapper">
+          <div className="img-div">
+            <img src={Phone} alt="phone" />
           </div>
+
+          <div className="writeUp-div">
+            <div className="bonus">
+              <p>Up To 25% Returns</p>
+            </div>
+
+            <h1>Access investment opportunities</h1>
+            <p >
+              invest securely and confidently on the go. Grow your money
+              confidently by investing in pre-vetted investment opportuinities.
+            </p>
+
+            <a href="/">Learn more about Investments <IoIosArrowForward size="15px" /> </a>
+          </div>
+        </div>
       </section>
       {/* SECTION FOUR ENDING */}
 
 
 
-       {/* SECTION FIVE BEGIN */}
-       <section className="landing05">
-          <div className="wrapper">
-              <div className="writeUp-div">
-                <div className="writeUp">
-                  <h1>Meet the saver of <br /> the month!</h1>
-                  <p>
-                    Every month, we shine a spotlight on one saver, asking them
-                    questions about thier savings culture and how the product is specifically helping them shape how they spend
-                    and save for future responsibilities.
-                  </p>
-                  <div style={{display: "flex"}} className="arrow-div">
-                    <BsArrowRightCircleFill  size="20px"/>
-                    <a href="/" style={{marginLeft: "10px"}}> Meet Debo (Mr Macaroni) </a>
-                  </div>
-                  
-                </div>
-                
+      {/* SECTION FIVE BEGIN */}
+      <section className="landing05">
+        <div className="wrapper">
+          <div className="writeUp-div">
+            <div className="writeUp">
+              <h1>Meet the saver of <br /> the month!</h1>
+              <p>
+                Every month, we shine a spotlight on one saver, asking them
+                questions about thier savings culture and how the product is specifically helping them shape how they spend
+                and save for future responsibilities.
+              </p>
+              <div style={{ display: "flex" }} className="arrow-div">
+                <BsArrowRightCircleFill size="20px" />
+                <a href="/" style={{ marginLeft: "10px" }}> Meet Debo (Mr Macaroni) </a>
               </div>
-              <div className="img-div">
-                <img src={Macaroni} alt="macaroni" />
-              </div>
+
+            </div>
+
           </div>
+          <div className="img-div">
+            <img src={Macaroni} alt="macaroni" />
+          </div>
+        </div>
       </section>
       {/* SECTION FIVE ENDING */}
 
