@@ -45,6 +45,7 @@
 
 .footer2{
     text-align: center;
+    margin: auto;
 }
 
 .footer2 .yr{
@@ -62,6 +63,9 @@
     .footer1{
         display: flex;
         flex-direction: column;
+    }
+    .procomp .comp{
+        margin-left: 50px;
     }
     .footer1 .brand-div{
         margin: 30px;
