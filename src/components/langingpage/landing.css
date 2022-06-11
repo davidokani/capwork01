@@ -454,7 +454,7 @@ a.morelink-for02 {
 }
 
 .gridsection > h1 {
-    font-family: DM SansBold;
+    font-family: DM SansBold, sans-serif;
 }
 
 .gridsection > p + p {
@@ -465,10 +465,6 @@ a.morelink-for02 {
     font-size: 16px;
     -moz-transition: all 1s;
     transition: all 1s;
-}
-
-.gridsection > p + p :hover {
-    margin-top: 0;
 }
 
 .bullet {
@@ -486,7 +482,7 @@ a.morelink-for02 {
     margin:0;
     margin-top:50px;
     padding:0;
-    font-family: DM SansBold;
+    font-family: DM SansBold, sans-serif;
     font-size: 40px;
     font-weight: bold;
 }
