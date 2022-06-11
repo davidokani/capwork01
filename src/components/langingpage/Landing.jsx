@@ -199,18 +199,19 @@ const Landing = () => {
 
       {/* SECTION TWO BEGIN */}
       <section className="landing02">
-        <img className="shieldicon" src={Shield} alt="" />
-        <div className="scurity">
-          <div className="animation-swipeup">
-            <h2 className="securitytopic">
-              Your security is our priority
-            </h2>
+        <div className="container02-left">
+          <img className="shieldicon" src={Shield} alt="" />
+          <div className="scurity">
+            <div className="animation-swipeup">
+              <h2 className="securitytopic">
+                Your security is our priority
+              </h2>
+            </div>
+            <p className="securitystatement">
+              PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL security <br /> encryption to ensure that your information is completely protected from fraud.
+            </p>
+            <a className="morelink-for02" href="/">Learn more</a>
           </div>
-          <p className="securitystatement">
-            PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL security <br /> encryption to ensure that your information is completely protected from fraud.
-          </p>
-          <a className="morelink-for02" href="/">Learn more</a>
-
         </div>
       </section>
       {/* SECTION TWO ENDING */}
