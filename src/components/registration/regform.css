@@ -3,11 +3,11 @@ form.regform {
     display: flex;
     flex-direction: column;
     padding-top: 200px;
-    width: 350px;
+    width: 30%;
     height: auto;
     background-color: #fff;
     margin-top: 40px;
-    padding: 20px 90px;
+    padding: 20px 60px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;

@@ -145,10 +145,11 @@
 }
 
 .dotIcon {
+    height: 20pc;
     display: inline-flex;
     position: absolute;
     bottom: 21pc;
-    margin-left: -635px;
+    margin-left: -745px;
 }
 
 .landing02 {
@@ -900,7 +901,7 @@ a.morelink-for02 {
     }
 
     .landing-topic {
-        font-size: 28px;
+        font-size: 38px;
         font-weight: bold;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
