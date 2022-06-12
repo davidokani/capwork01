@@ -33,7 +33,7 @@ const Landing = () => {
             </h1>
           </div>
           <p className="landing-doings">
-            PiggyVest helps over 3 million customers achieve thier financial goals
+            PiggyVest helps over 3 million customers achieve thier financial <br /> goals
             by helping them save and invest with ease.
           </p>
           <div className="landingreg">
