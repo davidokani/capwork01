@@ -1,0 +1,40 @@
+.login {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 0 10px 0 20px;
+}
+
+.bg-mywhite {
+    background-color: #fff;
+}
+
+
+/**.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px 0 50px;
+}
+
+.navbar .nav-list ul {
+    display: flex;
+    list-style: none;
+    color: #444;
+}
+
+.navbar .nav-list .nav-center ul li {
+    padding: 0 20px 0 30px;
+    font-weight: bold;
+}
+
+.navbar .nav-list ul li a{
+    margin-left: 270px;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 6px 20px 6px 20px;
+    color: #333;
+    font-size: 15px;
+}
+
+**/
+
