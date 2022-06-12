@@ -16,6 +16,9 @@ import target from "../../assets/target.png"
 import flex from "../../assets/flex.png"
 import safeLock from "../../assets/safelock.png"
 import newsvg from "../../assets/newsvg.svg"
+import techpoint from "../../assets/techpoint"
+import crunch from "../../assets/crunch"
+import guardian from "../../assets/guardian"
 
 
 
@@ -309,6 +312,23 @@ const Landing = () => {
         </div>
       </section>
       {/* SECTION FIVE ENDING */}
+
+
+      {/* SECTION SEVEN BEGIN */}
+      <section className="landing07">
+        <div className="landing07-container">
+          <p className="featured">As featured in</p>
+          <div className="brand">
+            <img src={techpoint} alt="brand" />
+          </div>
+          <div className="brand">
+            <img src={guardian} alt="brand" />
+          </div><div className="brand">
+            <img src={crunch} alt="brand" />
+          </div>
+        </div>
+      </section>
+      {/* SECTION SEVEN ENDING */}
 
       <Footer />
     </div>
