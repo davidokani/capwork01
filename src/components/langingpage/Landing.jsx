@@ -233,26 +233,26 @@ const Landing = () => {
             <img className="bullet" alt='shield' src={shieldSave} />
             <h1>Automated Savings</h1>
             <p>Build a dedicated savings faster based on your terms automaticlly or manually</p>
-            <p> <img className="right-arrow" src={newsvg} alt='right arrow' /> Piggybank </p>
+            <p className="arrowbutton"> <img className="right-arrow" src={newsvg} alt='right arrow' /> Piggybank </p>
           </div>
           <div className="gridsection">
             <img className="bullet" alt='shield' src={safeLock} />
             <h1>Fixed Savings</h1>
             <p>Lock money away for a fixed duration with no access to it until maturity.
               It’s like having a custom fixed deposit.</p>
-            <p> <img className="right-arrow" src={newsvg} alt='right arrow' /> Safelock</p>
+            <p className="arrowbutton"> <img className="right-arrow" src={newsvg} alt='right arrow' /> Safelock</p>
           </div>
           <div className="gridsection">
             <img className="bullet" alt='shield' src={target} />
             <h1>Goal-oriented Savings</h1>
             <p>Reach all your savings goals faster. Save towards multiple goals on your own or with a group.</p>
-            <p> <img className="right-arrow" src={newsvg} alt='right arrow' /> Target Savings </p>
+            <p className="arrowbutton"> <img className="right-arrow" src={newsvg} alt='right arrow' /> Target Savings </p>
           </div>
           <div className="gridsection">
             <img className="bullet" alt='shield' src={flex} />
             <h1>Flexible Savings</h1>
             <p>Save, transfer, withdraw, manage and organise your money for free at any time.</p>
-            <p> <img className="right-arrow" src={newsvg} alt='right arrow' /> Flex Naira </p>
+            <p className="arrowbutton"> <img className="right-arrow" src={newsvg} alt='right arrow' /> Flex Naira </p>
           </div>
         </div>
       </section>
