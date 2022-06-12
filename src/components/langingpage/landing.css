@@ -472,11 +472,16 @@ a.morelink-for02 {
     font-family: U8-Bold;
     display: flex;
     flex-direction: row;
+    align-items: center;
     font-size: 1rem;
     -moz-transition: left .25s;
     -webkit-transition: left .25s;
     -o-transition: left .25s;
     transition: left .25s;
+}
+
+.arrowbutton > * {
+    margin-right: .5rem;
 }
 
 .gridsection:hover .arrowbutton, .gridsection.hover .arrowbutton {
