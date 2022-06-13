@@ -862,20 +862,19 @@ a.morelink-for02 {
         height: 25rem;
         align-items: center;
         justify-content: center;
+        text-align: center;
         background-color: #f9f9f9;
     }   
 
     .featured {
-        align-self: center;
-        text-align: center;
-        font-size: 2rem;
+        margin: 2rem;
         width: 100%;
-        background-color: #fff;
+        font-size: 2rem;
     }
     
     .brand {
-        width: 10%;
-        height: 10%;
+        width: 25%;
+        height: 6%;
         justify-content: center;
         align-items: center;
         margin: 2rem;
