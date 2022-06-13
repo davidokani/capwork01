@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../../assets/logo-white.png";
+// import Logo from "../../../assets/logo-white.png";
 import "./recoverpassword.css"
 
 const Recoverpassword = () => {
     return (
         <div className="signinform">
-            <Link className="brand" to="/">
-                <img src={Logo} alt="" />
+            <Link className="logo" to="/">Piggyvest
+                {/* <img src={Logo} alt="" /> */}
             </Link>
             <div className="signinform-container">
                 <form action="/" method="get" className="logform">

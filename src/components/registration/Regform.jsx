@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from '../../assets/logo-white.png'
+// import Logo from '../../assets/logo-white.png'
 import "./regform.css"
 
 const Regform = () => {
     return (
         <div className="signinform">
-            <Link className="brand" to="/">
-                <img src={Logo} alt="" />
+            <Link className="logo" to="/">Piggyvest
+                {/* <img src={Logo} alt="" /> */}
             </Link>
             <div className="signinform-container">
                 <form action="/" method="POST" className="regform">
@@ -52,7 +52,7 @@ const Regform = () => {
                     </div>
                 </form>
             </div>
-            <div className="reg"><Link to="/signin">Already have an account? Log In</Link>
+            <div className="reg"><Link to="/signin" className="rego">Already have an account? Log In</Link>
             </div>
         </div>
     )
