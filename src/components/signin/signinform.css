@@ -13,20 +13,37 @@
   height: fit-content;
 }
 
-/* h1.logo {
+.logo {
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
   margin-top: 30px;
   font-size: 2.5em;
-} */
+  text-decoration: none;
+}
 
-.signinform .brand {
-  height: 0pc;
-  width: 30pc;
+.logo:hover {
+  color: #fff;
+}
+
+/* .signinform .brand img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 100px;
   margin-bottom: 100px;
 }
+
+
+.brand img {
+  height: 150px;
+  margin: auto;
+  float: center;
+}*/
 
 div.signinform-container {
   display: flex;
@@ -37,7 +54,7 @@ form.logform {
   display: flex;
   flex-direction: column;
   padding-top: 200px;
-  width: 30%;
+  width: auto;
   height: auto;
   background-color: #fff;
   margin-top: 40px;
@@ -113,6 +130,10 @@ div a.recover {
   text-align: center;
 }
 
+.rego:hover {
+  color: #fff;
+}
+
 button.btn-logform {
   color: #fff;
   background-color: rgb(57, 57, 228);
@@ -129,9 +150,15 @@ button.btn-logform {
 }
 
 @media (max-width: 650px) {
-  /* h1.logo {
-    font-size: 23px;
-  } */
+  .logo {
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2em;
+    text-decoration: none;
+  }
 
   .signinform .brand {
     height: 10px;
@@ -139,7 +166,7 @@ button.btn-logform {
   }
 
   form.logform {
-    width: 350px;
+    width: auto;
     height: auto;
     background-color: #fff;
     margin-top: 40px;

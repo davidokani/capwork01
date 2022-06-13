@@ -3,7 +3,7 @@ form.regform {
     display: flex;
     flex-direction: column;
     padding-top: 200px;
-    width: 30%;
+    width: auto;
     height: auto;
     background-color: #fff;
     margin-top: 40px;
@@ -44,7 +44,7 @@ button.btn-regform {
 
 @media (max-width: 650px) {
     form.regform {
-        width: 300px;
+        width: auto;
         height: auto;
         background-color: #fff;
         margin-top: 40px;

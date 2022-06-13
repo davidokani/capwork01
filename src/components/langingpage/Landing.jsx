@@ -36,7 +36,7 @@ const Landing = () => {
             </h1>
           </div>
           <p className="landing-doings">
-            PiggyVest helps over 3 million customers achieve thier financial <br /> goals
+            PiggyVest helps over 3 million customers achieve thier financial goals
             by helping them save and invest with ease.
           </p>
           <div className="landingreg">
@@ -216,7 +216,7 @@ const Landing = () => {
               </h2>
             </div>
             <p className="securitystatement">
-              PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL security <br /> encryption to ensure that your information is completely protected from fraud.
+              PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL security encryption to ensure that your information is completely protected from fraud.
             </p>
             <a className="morelink-for02" href="/">Learn more</a>
           </div>
